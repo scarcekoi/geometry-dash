@@ -1,7 +1,7 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://geometrydash.com">Geometry Dash</a>
+	Catppuccin for <a href="https://store.steampowered.com/app/322170/Geometry_Dash">Geometry Dash</a>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
@@ -36,15 +36,21 @@
 
 ## Usage
 
+### Manual Installation
+
 1. Download the flavor of your choice.
 2. Open the app and go to **Preferences** > **Appearance** > **Import theme**.
 3. Select the downloaded flavor file.
 
-<!-- The FAQ section is optional. Remove if needed.-->
-## 🙋 FAQ
+### Geode
 
-- Q: **_"How can I do X?"_**\
-  A: ...
+1. Install <a href="https://geode-sdk.org">Geode</a> if not already installed.
+2. Open the Geode menu in Geometry dash.
+3. Select the download tab at the top.
+4. Search for Catppuccin.
+5. Select the `Get` option on the Catppuccin result.
+6. Select `Install`.
+7. Restart Geometry Dash.
 
 ## 💝 Thanks to
 

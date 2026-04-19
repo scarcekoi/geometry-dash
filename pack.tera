@@ -1,0 +1,14 @@
+---
+whiskers:
+  version: "^2.9.0"
+  matrix:
+    - flavor
+  filename: "themes/{{ flavor.identifier }}/pack.json"
+---
+{
+	"textureldr": "1.5.0",
+	"name": "Catppuccin UI {{ flavor.name }}",
+	"id": "catppuccin.catppuccin-ui-{{ flavor.identifier }}",
+	"version": "1.0.0",
+	"author": "Catppuccin Org"
+}

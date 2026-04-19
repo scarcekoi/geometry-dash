@@ -1,0 +1,34 @@
+name: Zip Files
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "dist/**"
+
+jobs:
+  zip:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v6
+
+      - name: Set Up Git Config
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+      - name: Create Zips
+        run: |
+          mkdir -p dist
+          for theme in mocha macchiato frappe latte; do
+            (cd themes/$theme && zip -r ../../dist/$theme.zip .)
+          done
+
+      - name: Commit and Push
+        run: |
+          git add dist/
+          git diff --cached --quiet || git commit -m "chore: regenerate files"
+          git pull --rebase
+          git push

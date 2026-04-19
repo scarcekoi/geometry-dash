@@ -36,21 +36,14 @@
 
 ## Usage
 
-### Manual Installation
-
-1. Download the flavor of your choice.
-2. Open the app and go to **Preferences** > **Appearance** > **Import theme**.
-3. Select the downloaded flavor file.
-
-### Geode
-
-1. Install <a href="https://geode-sdk.org">Geode</a> if not already installed.
-2. Open the Geode menu in Geometry dash.
-3. Select the download tab at the top.
-4. Search for Catppuccin.
-5. Select the `Get` option on the Catppuccin result.
-6. Select `Install`.
+1. Download the ZIP file of your flavor of choice from [dist](dist).
+2. Install <a href="https://geode-sdk.org">Geode</a> if not already installed.
+3. Open **Settings** and go to **Graphics** > **Textures**.
+4. Select the folder icon in the bottom right.
+5. Move the downloaded ZIP file into the opened folder.
+6. Return to Geometry Dash and select **Apply**.
 7. Restart Geometry Dash.
+8. Enjoy!
 
 ## 💝 Thanks to
 

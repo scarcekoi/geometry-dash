@@ -2,7 +2,7 @@
 whiskers:
   version: "^2.9.0"
   matrix:
-    - flavor
+    - flavor: ["frappe", "macchiato", "mocha"]
   filename: "themes/{{ flavor.identifier }}/pack.json"
 ---
 {

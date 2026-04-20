@@ -49,6 +49,7 @@
 
 - [Scarce Koi](https://github.com/scarcekoi)
 
+- [Texture Loader](https://github.com/geode-sdk/textureldr)
 - [Lutgen](https://lut.sh)
 
 &nbsp;
